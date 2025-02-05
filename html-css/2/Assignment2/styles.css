@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap');
+body{
+    padding:50px;
+    background-color:  hsl(0, 0%, 98%);
+    font-family: "Outfit",serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: centre;
+    height: auto;
+}
+.nav{
+    display: flex;
+  justify-content: space-between;
+}
+.options{
+    display: flex;
+    margin-left: 10px;
+
+}
+.item{
+    margin-left: 30px;
+}
+.signup{
+    display: flex;
+    justify-content: flex-end;
+   padding:40px;
+}
+button{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+.options{
+    display: flex;
+}
+.logo{
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 0;
+    font-weight: 700;
+    color: black;
+}
+
+.left{
+    padding:20px;
+}
+
+.body{
+    display: flex;
+
+}
+.icons{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+h1{
+    font-size: 70px;
+
+}
+.text{
+    text-align: justify;
+
+}
+.paragraph{
+    width:300px;
+    padding-bottom: 20px;
+}
+.right{
+    margin-left: 80px;
+}
+.icons img{
+    width: 50px;
+}
+p{
+    color: hsl(0, 0%, 41%);
+}
+.learn{
+    background-color: black;
+    color:white;
+    padding:10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.login{
+ border-color: hsl(0, 0%, 98%); 
+ background-color: hsl(0, 0%, 98%);  
+ color: hsl(0, 0%, 41%);
+ padding:10px;
+}
+.register{
+    border-radius:20px;
+    border: 2px solid  hsl(0, 0%, 41%);
+    background-color: whitesmoke;
+    padding:0px 20px;
+}
