@@ -1,0 +1,117 @@
+.container{
+    display:flex;
+    flex-direction: column;
+}.logo{
+    margin-right:50px;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.333);
+    padding:5px;
+    color:grey
+}
+.left-nav{
+    display:flex;
+    justify-content: space-between;
+}
+.item{
+    margin-left:40px;
+}
+.right-nav{
+    display:flex;
+    justify-content: space-around;
+}
+.right-nav p{
+    margin-right: 40px;
+
+}
+.topics{
+    display: flex;
+    justify-content: space-between;
+
+}
+.topics img{
+    margin-top: 15px;
+}
+
+.body{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.left-body{
+    background-color: rgba(205, 245, 245, 0.304);
+    padding: 30px;
+    padding-left: 10px;
+    width:400px;
+
+    border-radius: 20px;
+    margin:20px;
+}
+.right-body{
+background-color:rgba(205, 245, 245, 0.304);
+padding-left: 10px;
+padding:10px;
+height:fit-content;
+border-radius:20px;
+margin:20px;
+}
+
+.apply{
+    padding:5px 20px;
+    background-color: aliceblue;
+    border-radius:10px;
+    color:rgb(28, 148, 240);
+    border:1px solid rgb(28, 148, 240);
+}
+input{
+    width:200px;
+    height:20px;
+}
+.left-body input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.charge{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:10px;
+}
+.bold{
+    font-weight:700
+}
+.sony{
+    margin: 0;
+    padding-bottom: 2px;
+}
+
+.register{
+    padding-left: 150px;
+    
+
+}
+.cancel{
+    padding-left: 150px;
+}
+.options{
+    display:flex;
+    flex-direction:column;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height:200px;
+}
+.options button{
+  background-color:rgb(28, 148, 240);
+  padding: 10px 15px;
+  color:white;
+  border:0px;
+  border-radius: 10px;
+}
+.account input {
+width:250px;
+height:30px;
+}
