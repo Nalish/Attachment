@@ -1,0 +1,27 @@
+function summariseData() {
+
+    const summarisedData = booksData.map(book => {
+        return `${book.title} by ${book.author} - ${book.genre} (${book.pages}pages)`
+    })
+    console.log(summarisedData);
+}
+
+
+function filterData() {
+    const filteredItems = booksData.filter((book) => (book.year < 1950))
+    console.log(filteredItems);
+}
+function sortBooks() {
+    const sortedBooks = booksData.sort((a, b) => (a.pages - b.pages))
+    console.log(sortedBooks);
+}
+
+function fictionfilter(){
+                document.getElementById("fiction").addEventListener("click",(()=>{
+                    const filterBooks=booksData.filter((book)=>{
+                        book.genre =="Fiction";
+                        
+                    })
+            
+                }))
+            }

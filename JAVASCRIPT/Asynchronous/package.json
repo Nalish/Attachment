@@ -4,7 +4,8 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon script.js"
+    "dev": "nodemon script.js",
+    "dev:start":"nodemon script2.js"
   },
   "type": "module",
   "keywords": [],
