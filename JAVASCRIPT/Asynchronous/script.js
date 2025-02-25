@@ -1,7 +1,7 @@
 let booksData = [];
 let cart = [];
 
-async function fetchBooks() {
+async function fetchBooks(response) {
     try {
         const response = await fetch("http://localhost:3000/books");
         booksData = await response.json();
