@@ -25,7 +25,7 @@ const app = express()
 
 //load the variables
 const port = process.env.PORT 
-console.log(port) //3000
+console.log(port) 
 
 
 //eneable CORS for all origins  
@@ -34,7 +34,7 @@ console.log(port) //3000
 //enable cors with optiosn (RECOMMENDED)
 //To allow only http://localhost:5173:
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "http://localhost:5175",
     methods: "GET,PUT,DELETE",
     credentials: true //allows cookies and auth headers
 }))
@@ -78,6 +78,7 @@ app.get('/api/booksFilter',(req:Request ,res:Response) =>{
             )
            
         }
+        
         res.json(filteredBooks);
         
     } catch (error) {

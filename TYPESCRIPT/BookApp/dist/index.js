@@ -45,7 +45,7 @@ function displayBooks(filteredBooks) {
         }).join('');
     }
 }
-//Attach an Event Listener to Each button
+//Attach an Event Listener to Each button to add to cart
 document.querySelectorAll('.buy').forEach(button => {
     button.addEventListener('click', function () {
         const idx = this.getAttribute('data-index');

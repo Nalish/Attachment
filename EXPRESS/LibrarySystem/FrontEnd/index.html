@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- 🟢 NAVIGATION BAR -->
+    <nav>
+        <h1>Library System</h1>
+        <div class="nav-right">
+            <label for="roleSelect">Select Role:</label>
+            <select id="roleSelect">
+                <option value="none">-- Choose Role --</option>
+                <option value="admin">Admin</option>
+                <option value="librarian">Librarian</option>
+                <option value="borrower">Borrower</option>
+            </select>
+            <button id="openModal">Proceed</button>
+        </div>
+    </nav>
+
+    <!-- 🔹 BOOK DISPLAY SECTION -->
+    <section id="bookList">
+        <h2>Available Books</h2>
+        <ul id="books"></ul>
+    </section>
+
+    <!-- 🟡 MODALS (Admin & Librarian Login) -->
+    <div id="adminLibrarianModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Admin / Librarian Login</h2>
+            <input type="text" id="adminUsername" placeholder="Username">
+            <input type="password" id="adminPassword" placeholder="Password">
+            <button id="adminLoginBtn">Login</button>
+        </div>
+    </div>
+
+    <!-- 🔵 MODAL (Borrower Login/Register) -->
+    <div id="borrowerModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Borrower Login / Register</h2>
+            <input type="text" id="borrowerUsername" placeholder="Username">
+            <input type="password" id="borrowerPassword" placeholder="Password">
+            <button id="borrowerLoginBtn">Login</button>
+            <h3>Or Register</h3>
+            <input type="text" id="newBorrowerUsername" placeholder="Fullname">
+            <input type="text" id="newBorrowerUsername" placeholder="New Email">
+            <input type="password" id="newBorrowerPassword" placeholder="New Password">
+            <button id="borrowerRegisterBtn">Register</button>
+        </div>
+    </div>
+
+    <script src="dist/index.js"></script>
+</body>
+</html>
